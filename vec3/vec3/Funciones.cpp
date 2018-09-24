@@ -1,16 +1,11 @@
-#include "Header.h"
+/*#include "Header.h"
 
 vec3::vec3() {
-	x = 0;
-	y = 0;
-	z = 0;
+
 }
 
-vec3::vec3(float a, float b, float c) {
-	x = a;
-	y = b;
-	z = c;
-}
+vec3::vec3(const float &x, const float &y, const float &z) : x(x), y(y), z(z) {}
+
 
 vec3::vec3(float a, float b) {
 	x = a;
@@ -76,3 +71,4 @@ const bool vec3::IsZero() {
 	if (x = 0, y = 0, z = 0) return true;
 	else return false;
 }
+*/
